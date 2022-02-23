@@ -25,7 +25,7 @@ app.MapGet("/UserStatus", async (IHttpClientFactory clientFactory) =>
 
         return result;
     })
-.WithName("GetWeatherForecast");
+.WithName("UserStatus");
 
 app.Run();
 
