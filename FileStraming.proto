@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcExploration";
+
+package StreamingProto;
+
+service RandomNumberFileStreaming{
+	rpc StreamFile(stream FileContent) returns (stream Result);
+}
+
+message FileContent{
+	bytes File=1;
+}
+
+message Result {
+	int32 Percent=1;
+}

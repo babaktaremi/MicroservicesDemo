@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-InventoryServiceWorker-1DA35BEF-70CD-4C68-8DD5-22C2B3B9EE84</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
+    <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
+    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.3.1" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="7.3.1" />
+  </ItemGroup>
+
+  <Import Project="..\AsyncCommunication.Shared\AsyncCommunication.Shared.projitems" Label="Shared" />
+</Project>
