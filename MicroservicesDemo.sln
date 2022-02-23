@@ -26,15 +26,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Protos", "Protos", "{24A2A2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcServer", "GrpcServer\GrpcServer.csproj", "{E9A081FC-5E9A-4158-AB61-BB4E7B5B6B26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcClient", "GrpcClient\GrpcClient.csproj", "{82CD205C-CBA2-435B-BAFD-29EB68A5AA93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcClient", "GrpcClient\GrpcClient.csproj", "{82CD205C-CBA2-435B-BAFD-29EB68A5AA93}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Async", "Async", "{1E079264-299D-459C-8DE5-6CC1F772FB7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaleServiceWorker", "SaleServiceWorker\SaleServiceWorker.csproj", "{1D876904-CFB9-4297-B04B-587E47900C80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaleServiceWorker", "SaleServiceWorker\SaleServiceWorker.csproj", "{1D876904-CFB9-4297-B04B-587E47900C80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryServiceWorker", "InventoryServiceWorker\InventoryServiceWorker.csproj", "{EBAB2B8F-C21B-4F2E-B0F1-6DD29D896934}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryServiceWorker", "InventoryServiceWorker\InventoryServiceWorker.csproj", "{EBAB2B8F-C21B-4F2E-B0F1-6DD29D896934}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AsyncCommunication.Shared", "AsyncCommunication.Shared\AsyncCommunication.Shared.shproj", "{19563200-5689-4ED0-BCD7-3B00583EEF88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Versioning", "Versioning", "{5D2BDD72-05D9-4CA0-B854-22FF4CB9535D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "UserService\UserService.csproj", "{C9DC6C77-706F-4528-9603-1C35BA2C98CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PanelService", "PanelService\PanelService.csproj", "{67A224A0-63B3-4F3A-9114-7B83BD357418}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -75,6 +81,14 @@ Global
 		{EBAB2B8F-C21B-4F2E-B0F1-6DD29D896934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBAB2B8F-C21B-4F2E-B0F1-6DD29D896934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBAB2B8F-C21B-4F2E-B0F1-6DD29D896934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9DC6C77-706F-4528-9603-1C35BA2C98CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DC6C77-706F-4528-9603-1C35BA2C98CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DC6C77-706F-4528-9603-1C35BA2C98CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DC6C77-706F-4528-9603-1C35BA2C98CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A224A0-63B3-4F3A-9114-7B83BD357418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A224A0-63B3-4F3A-9114-7B83BD357418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A224A0-63B3-4F3A-9114-7B83BD357418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A224A0-63B3-4F3A-9114-7B83BD357418}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +106,8 @@ Global
 		{1D876904-CFB9-4297-B04B-587E47900C80} = {1E079264-299D-459C-8DE5-6CC1F772FB7A}
 		{EBAB2B8F-C21B-4F2E-B0F1-6DD29D896934} = {1E079264-299D-459C-8DE5-6CC1F772FB7A}
 		{19563200-5689-4ED0-BCD7-3B00583EEF88} = {1E079264-299D-459C-8DE5-6CC1F772FB7A}
+		{C9DC6C77-706F-4528-9603-1C35BA2C98CE} = {5D2BDD72-05D9-4CA0-B854-22FF4CB9535D}
+		{67A224A0-63B3-4F3A-9114-7B83BD357418} = {5D2BDD72-05D9-4CA0-B854-22FF4CB9535D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0F04790-859C-4D4F-B894-335E5A1AFB18}
