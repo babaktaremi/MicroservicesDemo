@@ -47,7 +47,7 @@ internal record WeatherForecast(DateTime Date, int TemperatureC, string? Summary
 
 internal class CustomSettings
 {
-    public static DateTime AvailableAt = DateTime.Now.AddSeconds(20);
+    public static DateTime AvailableAt = DateTime.Now.AddSeconds(40);
 }
 
 public class ServiceHealth : IHealthCheck
